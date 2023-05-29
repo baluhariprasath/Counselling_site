@@ -1,0 +1,46 @@
+
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    margin: auto;
+    left: 0%;
+    width: 100%;
+}
+form{
+    display: block;
+    padding-inline-start: 50%;
+    margin-top: 2%;
+}
+.btn{
+    text-align: center;
+    cursor: pointer;
+   background-color: rgb(159, 168, 168);
+}
+  .columnleft,
+  .columnleft {
+    float:left;
+    text-align:center;
+    width:15%;
+  }
+  
+  
+  .columnright {
+    float:left;
+    text-align:center;
+    width: 60%;
+  }
+
+  .columnlast {
+    float:left;
+    text-align:center;
+    width: 10%;
+  }
+
+  .row:after {
+    content: "";
+    display:table;
+    clear:both;
+  }
+  
